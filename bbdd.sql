@@ -6,4 +6,13 @@ CREATE TABLE CARTAS (
     texto_c TEXT, -- Texto de la habilidad o efecto
     tipo_c VARCHAR(50) NOT NULL -- El tipo de la carta (Ej: Unidad, Hechizo)
 );
--- postgresql://jose:BQ2J1clslvf3YJ56OybucPEqVoYR4BiN@dpg-d4tg14shg0os73ctrbq0-a.frankfurt-postgres.render.com/riftbound
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id SERIAL PRIMARY KEY,
+    usuario VARCHAR(50) UNIQUE NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
+    rango VARCHAR(20) DEFAULT 'usuario',
+    correo VARCHAR(100) UNIQUE NOT NULL
+);
+
