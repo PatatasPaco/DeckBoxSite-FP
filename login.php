@@ -17,6 +17,12 @@
         <button type="button" style="width: 100%; padding: 0.75rem; background-color: var(--primary); color: white; border: none; border-radius: 0.5rem; font-weight: 600; cursor: pointer; transition: background-color 0.2s;">
             Entrar
         </button>
+        
+        <div style="margin-top: 1rem; text-align: center;">
+            <a href="registro.php" style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem; transition: color 0.2s;">
+                ¿No tienes cuenta? <span style="color: var(--accent);">Regístrate aquí</span>
+            </a>
+        </div>
     </form>
 </div>
 
