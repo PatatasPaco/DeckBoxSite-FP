@@ -136,6 +136,7 @@
             <ul class="nav-links">
                 <li><a href="index.php" class="nav-link">Inicio</a></li>
                 <li><a href="cartas.php" class="nav-link">Cartas</a></li>
+                <li><a href="decks.php" class="nav-link">Decks</a></li>
                 <li><a href="login.php" class="nav-link">Login</a></li>
             </ul>
         </nav>

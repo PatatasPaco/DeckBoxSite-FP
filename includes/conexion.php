@@ -1,6 +1,6 @@
 <?php
 // Configuration
-$host = 'localhost';
+$host = 'host.docker.internal';
 $dbname = 'deckbox'; // Assumed default
 $username = 'postgres'; // Assumed default
 $password = 'postgres'; // Assumed default
